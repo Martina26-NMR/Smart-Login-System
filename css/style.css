@@ -1,0 +1,53 @@
+/* Base page styling */
+.page--dark {
+    background-color: #24353F;
+  }
+  
+.group{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+.login-card__input::placeholder {
+    color: #00bcd4;
+  }
+
+  /* Card block */
+  .login-card {
+    background-color: #132c3f;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Title element */
+  .login-card__title {
+    font-weight: bold;
+  }
+  
+  /* Inputs */
+  .login-card__input {
+    background-color: transparent;
+    border: 1px solid white;
+  }
+  
+  /* Button */
+  .login-card__btn:hover {
+    background-color: #00bcd4;
+    color: white;
+  }
+  
+  /* Footer text */
+  .login-card__footer {
+    font-size: 0.9rem;
+  }
+  
+  .sign__up {
+    text-decoration: none
+  }
+  .sign__up:hover{
+text-decoration:underline;
+  }
+
+#welcomeMessage{
+  color: rgb(195, 207, 218);
+}
